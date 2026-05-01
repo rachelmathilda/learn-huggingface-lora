@@ -1,16 +1,7 @@
 transformers>=4.40.0
-datasets>=2.18.0
-peft>=0.10.0
-accelerate>=0.30.0
-bitsandbytes>=0.43.0
-
 torch>=2.2.0
-scipy
-numpy
-pandas
+gradio>=4.0.0
 
-tqdm
-scikit-learn
-
-sentencepiece
-protobuf
+biopython
+accelerate
+peft
