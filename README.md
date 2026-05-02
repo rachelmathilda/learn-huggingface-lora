@@ -1,11 +1,12 @@
-## HuggingFace + LoRA projects
-This repository is dedicated to learning fine-tuning using Hugging Face models with LoRA.
+## HuggingFace + LoRA Projects
+
+This repository explores parameter-efficient fine-tuning using LoRA on Hugging Face models, focusing on lightweight models suitable for efficient deployment.
 
 ### Code Generation Assistant
-Adapt CodeLlama-7B to generate code and support Fill-in-Middle like Github Copilot.
+Fine-tune `gpt2` using LoRA to simulate Fill-in-the-Middle (FIM) capabilities for code generation tasks.
 
-### Protein Folding
-Utilizing Facebook ESMFold to predict protein's 3D structure then fine-tune ESM-2 to classify protein's function.
+### Protein Function Classification
+Fine-tune `facebook/esm2_t6_8M_UR50D` using LoRA to classify protein functions from amino acid sequences.
 
-### Speech Recognition Local Language
-Fine-tune OpenAI Whisper to accurately recognize some of Indonesia's local languages
+### Speech Recognition for Local Languages
+Fine-tune `openai/whisper-base` using LoRA to improve recognition of Indonesian local languages.
