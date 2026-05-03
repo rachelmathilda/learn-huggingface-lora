@@ -12,12 +12,14 @@ Fine-tune `gpt2` using LoRA to simulate Fill-in-the-Middle (FIM) capabilities fo
 
 [Reference](https://huggingface.co/docs/trl/main/en/lora_tuning_peft)
 
-[App link](https://huggingface.co/spaces/rachelmathilda/code-generation-gpt2)
+[Code Generation App link](https://huggingface.co/spaces/rachelmathilda/code-generation-gpt2)
 
 ### Protein Function Classification
 Fine-tune `facebook/esm2_t6_8M_UR50D` using LoRA to classify protein functions from amino acid sequences.
 
 [Reference](https://huggingface.co/blog/AmelieSchreiber/esmbind)
+
+[Protein Folding App Link](https://huggingface.co/spaces/rachelmathilda/protein-folding-esm2)
 
 ### Speech Recognition for Local Languages
 Fine-tune `openai/whisper-base` using LoRA to improve recognition of Indonesian local languages.
@@ -25,3 +27,5 @@ Fine-tune `openai/whisper-base` using LoRA to improve recognition of Indonesian 
 [Reference](https://huggingface.co/blog/fine-tune-whisper)
 
 [Dataset](https://huggingface.co/datasets/google/fleurs)
+
+[Indonesian Local Languages Speech Recognition](https://huggingface.co/spaces/rachelmathilda/speech-recognition-indonesian-local)
