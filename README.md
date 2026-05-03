@@ -22,3 +22,5 @@ Fine-tune `facebook/esm2_t6_8M_UR50D` using LoRA to classify protein functions f
 Fine-tune `openai/whisper-base` using LoRA to improve recognition of Indonesian local languages.
 
 [Reference](https://huggingface.co/blog/fine-tune-whisper)
+
+[Dataset](https://huggingface.co/datasets/google/fleurs)
